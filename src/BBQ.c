@@ -1,9 +1,11 @@
 
 #include <stdio.h>
 #include <stdint.h>
-#include <stddef.h>
 #include <stdlib.h>
+#include <stddef.h>
+#include <string.h>
 #include <stdbool.h>
+#include "BBQ.h"
 
 BatchBufferQueue *bbq_init(size_t capacity)
 {
